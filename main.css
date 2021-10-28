@@ -1,0 +1,25 @@
+body{
+      overflow-x: hidden;
+      user-select: none;
+}
+.user-img{
+      width: 60px;
+      height: 60px;
+      object-fit: cover ;
+}
+.list-group-item{
+      background-color:#5e676b;
+      color: white;
+}
+.list-group-item:hover{
+      background-color: rgb(24, 22, 22);
+      color: white;     
+}
+.msg{
+      color: white;
+      padding: 10px;
+      max-width: 300px;
+}
+.col-md-4 , .col-md-8{
+    height: 580px;
+}
